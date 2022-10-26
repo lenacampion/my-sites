@@ -1,0 +1,31 @@
+.card-cotisation {
+	display: flex;
+	background-color: #DFF6FF;
+	padding: 10px;
+	box-shadow: 0px 20px 30px rgba(30,30,30,0.3);
+	border-radius: 1%;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 120px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+.card-cotisation img{
+	width: 160px;
+	height: 120px;
+	margin: 10px;
+
+
+}
+
+.card-cotisation a{
+	font-size: 15px;
+}
+
+
+.card-cotisation h2,h4{
+	flex-grow: 1;
+	margin-right: 24px;
+	margin-left: 24px;
+}

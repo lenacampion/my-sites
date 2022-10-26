@@ -1,0 +1,17 @@
+.banner {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 70%), url("../../images/banniere.png");
+	color: black;
+	padding: 150px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+
+}
+.banner h1 {
+	font-size: 55px;
+	margin-bottom: 4px;
+}
+
+.banner p {
+	margin-top: 0px;
+}

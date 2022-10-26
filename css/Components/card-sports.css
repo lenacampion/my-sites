@@ -1,0 +1,168 @@
+#card-img1 {
+	display: flex;
+	height: 160px;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 80%), url("../../images/football.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+
+#card-img2 {
+	display: flex;
+	height: 160px;
+	background-image: url("../../images/Volley.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+#card-img3 {
+	display: flex;
+	height: 160px;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/hand.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+#card-img4 {
+	display: flex;
+	height: 160px;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/basket.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+#card-img5 {
+	display: flex;
+	height: 160px;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/rugby.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+#card-img6 {
+	display: flex;
+	height: 160px;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/athletisme.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+
+#card-img7 {
+	display: flex;
+	height: 160px;
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/boxe.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	flex-basis: 160px;
+	flex-grow: 1;
+	box-shadow: 5px 5px 10px #0D0F1C;
+}
+
+#card-img1 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#card-img2 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#card-img3 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#card-img4 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#card-img5 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#card-img6 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#card-img7 a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+
+.card-sports {
+	display: flex;
+	/*background-color: white;*/
+	padding: 0px;
+	box-shadow: 0px 20px 30px rgba(30,30,30,0.3);
+	border-radius: 1%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card-sports img{
+	width: 160px;
+	height: 120px;
+	border-radius: 5px;
+
+
+}
+
+.card-sports a{
+	font-size: 15px;
+	color: white;
+}
+
+
+.card-sports h2{
+	flex-grow: 1;
+	margin-right: 24px;
+	margin-left: 24px;
+}

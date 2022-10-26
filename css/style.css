@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+@import url("components/container.css");
+@import url("components/btn-blue.css");
+@import url("components/banner.css");
+@import url("components/card-sports.css");
+@import url("components/card-grid.css");
+@import url("components/card-projet.css");
+@import url("components/card-cotisation.css");
+@import url("components/card-commission.css");
+@import url("components/menu.css");
+
+
+body {
+	background: linear-gradient(-200deg, #0D0F1C, #06283D 70%, #607EAA);
+}
+
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	color: #3330E4;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px darkblue;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-family: 'Bebas Neue', cursive;
+	color: #1363DF;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Bebas Neue', cursive;
+	color: #47B5FF;
+	font-size: 20px;
+}
+
+li, p, a{
+	font-family: 'Oswald', sans-serif;
+	color: white ;
+}
+
+ul{
+	padding: 0px;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+	color: #47B5FF;
+	font-size: 15px;
+}
+
+
+.contenu{
+	flex: 1.0 auto;
+}
+
+.contenu p {
+	padding: 5vw 10vw;
+	text-align: justify;
+}
+
+
+footer{
+	flex-shrink: 0;
+	border-top: 1px dashed ;
+	width: 100%;
+	background: transparent;
+	color: transparent; 
+}
+
+.contenu-footer {
+	width: 1200px;
+	margin: 0auto;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 50px 0 100px;
+}
+
+.bloc{
+	width: 25%;
+	margin :0 30px
+
+
+}
+
